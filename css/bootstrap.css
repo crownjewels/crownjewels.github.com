@@ -136,7 +136,8 @@ body {
   font-size: 13px;
   line-height: 18px;
   color: #333333;
-  background-color: #ffffff;
+  background-color: transparent;
+background:  url(/assets/texture.jpg) repeat;
 }
 a {
   color: #0088cc;
@@ -4058,21 +4059,28 @@ footer {
 .label {
   text-shadow: none; }
 
-.page-content {
-  background: url('/static/img/bg-page.jpg?b4b2d616107c') center 40px no-repeat white; }
+
+
 
 .page {
   background: #fff;
   padding: 30px 12% 60px;
   margin: 70px 0 0 0;
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.25); }
-  .page .team img {
-    float: left;
-    margin-right: 10px; }
-  .page .team p {
+	height:auto;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.25); 
+}
+.page img {
+	float: left;
+	height:150px;
+	margin: 0 35px 20px 0;
+	position: relative;
+	top: 0;
+	
+}
+.page .team p {
     overflow: hidden;
-    margin-bottom: 15px; }
-
+    margin-bottom: 15px; 
+}
 .navbar .container {
 	width: 940px;
 	height: 80px;
@@ -4082,8 +4090,9 @@ footer {
   position: absolute;
   top: 0;
   left: 0;
-  right: 0; }
-  .navbar .navbar-inner {
+  right: 0; 
+}
+.navbar .navbar-inner {
     background: #fff;
     color: #000;
     padding-top: 5px;
@@ -4093,27 +4102,36 @@ footer {
     -ms-border-radius: 0;
     -o-border-radius: 0;
     border-radius: 0;
-    text-shadow: none; }
+    text-shadow: none; 
+}
     .navbar .navbar-inner .brand {
-      padding-top: 11px; }
+      padding-top: 12px; 
+}
     .navbar .navbar-inner .nav > li {
       float: right;
-      display: block; }
+      display: block; 
+}
       .navbar .navbar-inner .nav > li > a {
         text-shadow: none;
         padding: 13px 15px;
-        font-size: 16px; }
+        font-size: 16px; 
+}
       .navbar .navbar-inner .nav > li .active > a, .navbar .navbar-inner .nav > li .active > a:hover, .navbar .navbar-inner .nav > li > a:hover {
         background: #fff;
-        color: #000; }
+        color: #000; 
+}
     .navbar .navbar-inner .nav-collapse.in ul:first-child {
-      margin-bottom: 0; }
+      margin-bottom: 0; 
+}
     .navbar .navbar-inner .btn-navbar {
-      margin-top: 8px; }
+      margin-top: 8px;
+ }
 
 
 .home {
-  padding-top: 70px; }
+  padding-top: 70px; 
+
+	}
   .home article.container {
     margin-top: 1; }
   .home .hero-unit {
@@ -4149,7 +4167,7 @@ section {
       height: 64px;
       width: 90px;
       margin: 0;
-      background: url('/assets/home-features.jpg') no-repeat; }
+      background: url('/assets/home-features.gif') no-repeat; }
       section.features .span6 i.ring {
         background-position: 16px 3px; }
       section.features .span6 i.crown {
