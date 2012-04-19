@@ -3879,6 +3879,7 @@ a.thumbnail:hover {
 .carousel .item > img {
   display: block;
   line-height: 1;
+margin: auto auto;
 }
 .carousel .active,
 .carousel .next,
@@ -4130,15 +4131,6 @@ footer {
 
 .home {
   padding-top: 70px;
-
-}
-  .home article.container {
-    margin-top: 1; }
-  .home .hero-unit {
-    background: none;
-    height: 410px;
-    padding: 0 0 0 0;
-    background: url('/assets/header.jpg') center no-repeat; }
 
 }
 
