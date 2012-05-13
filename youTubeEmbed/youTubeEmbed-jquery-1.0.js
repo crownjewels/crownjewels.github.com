@@ -198,9 +198,9 @@
 			
 			// This global function is called when the player is loaded.
 			// It is shared by all the videos on the page:
-			if (jQuery.browser.mobile) 
+			if (!jQuery.browser.mobile) 
 			{
-				elements.control.click();
+				$('.mobile').remove();
 			}
 			
 			if(!window.onYouTubePlayerReady)
