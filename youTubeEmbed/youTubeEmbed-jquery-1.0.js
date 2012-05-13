@@ -128,10 +128,7 @@
 			}
 
 			var initialized = false;
-			if (jQuery.browser.mobile) 
-			{
-				elements.control.click();
-			}
+
 			
 			// Creating a global event listening function for the video
 			// (required by YouTube's player API):
@@ -201,6 +198,10 @@
 			
 			// This global function is called when the player is loaded.
 			// It is shared by all the videos on the page:
+			if (jQuery.browser.mobile) 
+			{
+				elements.control.click();
+			}
 			
 			if(!window.onYouTubePlayerReady)
 			{				
