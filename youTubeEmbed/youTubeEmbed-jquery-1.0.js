@@ -181,8 +181,10 @@
 						{
 							elements.control.click();
 						}
-						else if (jQuery.browser.mobile) {
-							elements.control.addClass('play').click();
+						else if (jQuery.browser.mobile) 
+						{
+							alert('what')
+							elements.control.click();
 						}
 					}
 				}
