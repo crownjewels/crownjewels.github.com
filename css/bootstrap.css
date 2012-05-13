@@ -4000,7 +4000,7 @@ margin: auto auto;
 	margin-right: 0px;
 	position: absolute;
 	margin-top: 37px;
-	width: 220px;
+	width: 100%;
 	padding-left: 14px;
 }
 
@@ -4097,6 +4097,8 @@ footer {
 .navbar .container {
 	width: 940px;
 	height: 90px;
+	padding-top:5px;
+	padding-bottom:5px;
  }
 
 .navbar {
