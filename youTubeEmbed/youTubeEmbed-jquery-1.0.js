@@ -182,7 +182,7 @@
 							elements.control.click();
 						}
 						else if (jQuery.browser.mobile) {
-							elements.control.click();
+							elements.control.addClass('play').click();
 						}
 					}
 				}
