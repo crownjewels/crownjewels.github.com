@@ -26,7 +26,7 @@
 			progress	: null,	// Progress bar
 			elapsed		: null	// The light blue elapsed bar
 		};
-		
+
 
 		try{	
 
@@ -181,6 +181,9 @@
 						{
 							elements.control.click();
 						}
+						else if (jQuery.browser.mobile) {
+							elements.control.click();
+						}
 					}
 				}
 				
@@ -200,7 +203,6 @@
 				}
 			}
 		},'jsonp');
-
 		return elements.originalDIV;
 	}
 
