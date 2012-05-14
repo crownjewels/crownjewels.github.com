@@ -1,2 +1,2 @@
-permalink: 		pretty
+permalink: 		none
 exclude: 		['CNAME', 'README']

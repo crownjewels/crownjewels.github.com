@@ -17,7 +17,7 @@ RewriteRule (.*) http://crownjewelsandcoin.com/ [R=301,L]
 
 # GZip
 <IfModule mod_deflate.c>
-<FilesMatch "\.(html|js|css)$">
+<FilesMatch "\.(html|js|css|xml)$">
 SetOutputFilter DEFLATE
 </FilesMatch>
 </IfModule>
