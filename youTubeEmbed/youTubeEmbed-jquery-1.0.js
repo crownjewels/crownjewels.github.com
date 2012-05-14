@@ -6,8 +6,13 @@
 		
 		// Settings can be either a URL string,
 		// or an object
-		
-		if(typeof settings == 'string'){
+		if (jQuery.browser.mobile) {
+			
+		}
+		else{
+			$('.mobile').remove();
+			
+			if(typeof settings == 'string'){
 			settings = {'video' : settings}
 		}
 		
@@ -198,10 +203,6 @@
 			
 			// This global function is called when the player is loaded.
 			// It is shared by all the videos on the page:
-			if (!jQuery.browser.mobile) 
-			{
-				$('.mobile').remove();
-			}
 			
 			if(!window.onYouTubePlayerReady)
 			{				
@@ -212,5 +213,5 @@
 		},'jsonp');
 		return elements.originalDIV;
 	}
-
+}
 })(jQuery);
