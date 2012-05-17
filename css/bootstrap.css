@@ -135,7 +135,6 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 18px;
-  color: #333333;
   background-color: transparent;
 background:  url(/assets/texture.jpg) repeat;
 }
@@ -2790,8 +2789,9 @@ input[type="submit"].btn.btn-mini {
   background-image: -webkit-linear-gradient(top, #333333, #222222);
   background-image: -o-linear-gradient(top, #333333, #222222);
   background-image: linear-gradient(top, #333333, #222222);
-  background-repeat: repeat-x;*/
+  background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#222222', GradientType=0);
+*/
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -2854,7 +2854,7 @@ input[type="submit"].btn.btn-mini {
   height: auto;
 }
 .navbar {
-  color: #999999;
+/*  color: #999999;*/
 }
 .navbar .brand:hover {
   text-decoration: none;
