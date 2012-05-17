@@ -1,47 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-      <title>{{ page.title }} | Crown Jewels and Coin</title>
+      <title>{{ page.title }} Crown Jewels and Coin | Arizona Jewelry Stores - Phoenix, Scottsdale Coins | Silver | Gold | Diamonds</title>
  		<meta charset="utf-8">
 		<meta http-equiv="Content-Language" content="en">
 		<meta name="author" content="Crown Jewels and Coin">
-		<meta name="description" content="Crown Jewels and Coin located in Phoenix, AZ pays the highest market value if you want to sell gold, silver, or dimonds.">
-		<meta name="keywords" content="jewelery, phoenix, scottsdale, CROWN, JEWELS, COIN">
+		<meta name="description" content="Crown Jewels and Coin - Scottsdale, Phoenix, Arizona Premier Buyer; Seller and Buyer of Gold , Silver, Diamonds, Fine Watches Jewelry and Coins.">
+		<meta name="keywords" content="Jewelry, phoenix, scottsdale, Crown, Jewelry, Coins, Gold, Silver, Gold Buyer, Silver Buyer, fine, watch, watches, phx, az, ariz, store, rolex, diamond, diamonds">
 		<link rel="stylesheet" type="text/css" href="/css/bootstrap.css" media="screen">
 		<link rel="stylesheet" href="/css/bootstrap-responsive.css">
-		<link rel="stylesheet" type="text/css" href="youTubeEmbed/youTubeEmbed-jquery-1.0.css" />
+		<link rel="stylesheet" type="text/css" href="/youTubeEmbed/youTubeEmbed-jquery-1.0.css" />
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script src="/js/jquery.swfobject.1-1-1.min.js"></script>
 		<script src="js/detectmobilebrowser.js"></script>
-		<script src="youTubeEmbed/youTubeEmbed-jquery-1.0.js"></script>
+		<script src="/youTubeEmbed/youTubeEmbed-jquery-1.0.js"></script>
 		<script src="/js/youtube.js"></script>
       <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
       <![endif]-->
     </head>
     <body class="home">
-		<nav class="navbar">
-			<div class="navbar-inner">
-				<div class="container">
-		          <a href="/" class="brand"><img src="/assets/Crown-Jewels-and-Coin.png" alt="Crown-Jewels-and-Coin" width="120px" height="65px"></a>
-
-						<ul class="nav">
-							<li><a href="/about">About us</a></li>
-							<li><a href="/contact">Contact</a></li>
-							<li><div class="contact">602-266-0629 </br> 5220 North 7th Street Phoenix, AZ</div></li>
-						</ul>	
-					</div><!--/.nav-collapse -->
-				</div>
-			</div>
-		</nav>
+		{% include navbar.html %}
 		<article class="container">
 		      {{ content }} 
 			<footer>
 				<p>
-					<a href="/about">About us</a> &middot;
-					<a href="mailto:info@crownjewelsandcoin.com ">Mail</a> &middot;
-					<a href="/contact">Contact</a> &middot;
-					<a href="/" target="_blank">Home</a>
+					<a href="mailto:info@crownjewelsandcoin.com" title="Email Crown Jewels and Coin">Email</a>
+				</p>
+				<p>
+				5220 North 7th Street Phoenix, Arizona 85012<br>
+				602-266-0629<br>
+				</p>
+				<p>
+				Store Hours <br>
+				Mon-Fri: 10am-6pm / Sat: 10am-5pm / Sun: Closed
 				</p>
 				<p>&copy; 2011-2012 CrownJewelsandCoin. Designed by<a href="http://itsnotartitscode.com/">itsnotartitscode</a></p>
 			</footer>
