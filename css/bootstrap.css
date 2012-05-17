@@ -3995,8 +3995,8 @@ margin: auto auto;
 		font-size: 14px;
 		color: #A4A4A4;
 		font-style: normal;
-		text-align: left;
-	padding: 10px 125px 11px;
+		text-align: center;
+	padding: 10px 0 11px;
 	line-height: 19px;
 	text-decoration: none;
 }
