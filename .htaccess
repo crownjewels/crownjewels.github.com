@@ -3,8 +3,6 @@ Options -Indexes
 
 # Redirection of www.* to non-www.*
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www.crownjewelsandcoin.com
-RewriteRule (.*) http://crownjewelsandcoin.com/ [R=301,L]
 
 # Caching 
 # Header unset ETag
