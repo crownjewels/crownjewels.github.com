@@ -1,9 +1,6 @@
 # Block directory indexes
 Options -Indexes 
 
-# Redirection of www.* to non-www.*
-RewriteEngine On
-
 # Caching 
 # Header unset ETag
 # FileETag None
