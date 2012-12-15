@@ -1,2 +1,4 @@
-permalink: 		pretty
 exclude: 		['CNAME', 'README']
+permalink: 		pretty
+pygments: 		true
+

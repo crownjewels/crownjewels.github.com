@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <script type="text/javascript">
+        window["_gaUserPrefs"] = {
+            ioo: function () {
+                return true;
+            }
+        }
+    </script>
+    
+    <head>
+        <title>jQuery YouTube Popup Player Plugin</title>
+        <script type="text/javascript"
+        src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <link type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/redmond/jquery-ui.css"
+        rel="stylesheet">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="http://lab.abhinayrathore.com/jquery_youtube/jquery.youtubepopup.min.js"></script>
+        <script type="text/javascript">
+            $(function () {
+                $("a.youtube").YouTubePopup({
+                    autoplay: 0
+                });
+            });
+        </script>
+    </head>
+    
+    <body>
+        <a class="youtube" href="#" rel="4eYSpIz2FjU" title="jQuery YouTube Popup Player Plugin TEST">Test Me</a>
+        <div style="display: none; z-index: 1002; outline: 0px; height: auto; width: auto; top: 138px; left: 441.5px; "
+        class="ui-dialog ui-widget ui-widget-content ui-corner-all" tabindex="-1"
+        role="dialog" aria-labelledby="ui-dialog-title-1">
+            <div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"
+            style="">
+                <a href="#" class="ui-dialog-titlebar-close ui-corner-all"
+                role="button"><span class="ui-icon ui-icon-closethick">close</span></a>
+            </div>
+            <div style="padding: 0px; width: auto; min-height: 439.0333333015442px; height: auto; "
+            class="ui-dialog-content ui-widget-content" scrolltop="0" scrollleft="0"></div>
+        </div>
+    </body>
+
+</html>
